@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Indomie Rebus">
+<title>Indomie Rebus</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fcf1d6"/><stop offset="1" stop-color="#f4dca4"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#bg)"/>
+<circle cx="340" cy="60" r="120" fill="#fff" opacity=".18"/>
+<circle cx="50" cy="360" r="95" fill="#fff" opacity=".14"/>
+<g transform="translate(200 312) scale(1.2) translate(-200 -300)"><ellipse cx="200" cy="350" rx="130" ry="18" fill="#000" opacity=".12"/>
+<path d="M58 218 H342 Q336 316 270 338 Q200 356 130 338 Q64 316 58 218 Z" fill="#fffaf2"/>
+<path d="M82 262 Q200 292 318 262" fill="none" stroke="#e8c9a0" stroke-width="8" stroke-linecap="round"/>
+<path d="M72 240 Q200 262 328 240" fill="none" stroke="#c0392b" stroke-width="6" stroke-linecap="round" opacity=".85"/><ellipse cx="200" cy="218" rx="142" ry="22" fill="#e9a43d"/><ellipse cx="200" cy="220" rx="126" ry="16" fill="#f2c15a"/><path d="M110 184 q25.0 -26 50.0 0 t50.0 0 t50.0 0" fill="none" stroke="#f6dd8a" stroke-width="12" stroke-linecap="round" opacity="0.95"/><path d="M110 194 q25.0 -26 50.0 0 t50.0 0 t50.0 0" fill="none" stroke="#f6dd8a" stroke-width="12" stroke-linecap="round" opacity="0.9099999999999999"/><path d="M110 204 q25.0 -26 50.0 0 t50.0 0 t50.0 0" fill="none" stroke="#f6dd8a" stroke-width="12" stroke-linecap="round" opacity="0.87"/><path d="M110 214 q25.0 -26 50.0 0 t50.0 0 t50.0 0" fill="none" stroke="#f6dd8a" stroke-width="12" stroke-linecap="round" opacity="0.83"/><g><ellipse cx="256" cy="212" rx="28" ry="19" fill="#fffdf6" stroke="#f0e4c8" stroke-width="3"/><ellipse cx="256" cy="212" rx="12" ry="9" fill="#f6b21e"/></g><g fill="#5fa332"><circle cx="150" cy="212" r="5"/><circle cx="170" cy="222" r="5"/><circle cx="148" cy="226" r="4"/></g><path d="M160 190 q-14 -22 0 -44 q14 -22 0 -44" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".75"/><path d="M200 190 q-14 -22 0 -44 q14 -22 0 -44" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".75"/><path d="M240 190 q-14 -22 0 -44 q14 -22 0 -44" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".75"/></g>
+</svg>

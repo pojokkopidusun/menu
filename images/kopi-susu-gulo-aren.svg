@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Kopi Susu Gulo Aren">
+<title>Kopi Susu Gulo Aren</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8ead6"/><stop offset="1" stop-color="#efd3b1"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#bg)"/>
+<circle cx="340" cy="60" r="120" fill="#fff" opacity=".18"/>
+<circle cx="50" cy="360" r="95" fill="#fff" opacity=".14"/>
+
+<ellipse cx="200" cy="322" rx="140" ry="22" fill="#000" opacity=".10"/>
+<ellipse cx="200" cy="304" rx="132" ry="26" fill="#fffaf2"/>
+<ellipse cx="200" cy="300" rx="104" ry="18" fill="#eadfca"/>
+<path d="M298 208 q60 -8 54 36 q-6 42 -66 38" fill="none" stroke="#fffaf2" stroke-width="17" stroke-linecap="round"/>
+<path d="M100 192 H300 V232 Q300 298 235 299 H165 Q100 298 100 232 Z" fill="#fffaf2"/>
+<path d="M112 222 Q113 280 158 289" fill="none" stroke="#000" stroke-width="6" opacity=".06" stroke-linecap="round"/>
+<ellipse cx="200" cy="192" rx="100" ry="20" fill="#fffaf2"/>
+<ellipse cx="200" cy="194" rx="88" ry="14" fill="#b57b4d"/>
+<path d="M165 193 q35 -16 70 0" fill="none" stroke="#f3e2cc" stroke-width="7" stroke-linecap="round" opacity=".9"/><circle cx="200" cy="192" r="8" fill="#f3e2cc" opacity=".9"/>
+<path d="M165 168 q-14 -22 0 -44 q14 -22 0 -44" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".75"/><path d="M200 168 q-14 -22 0 -44 q14 -22 0 -44" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".75"/><path d="M235 168 q-14 -22 0 -44 q14 -22 0 -44" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+<g>
+<ellipse cx="335" cy="346" rx="30" ry="9" fill="#000" opacity=".12"/>
+<rect x="309" y="324" width="52" height="24" rx="8" fill="#6b4122"/>
+<rect x="309" y="324" width="52" height="10" rx="5" fill="#8d5a33"/>
+<rect x="329" y="304" width="46" height="22" rx="8" fill="#7a4a28"/>
+<rect x="329" y="304" width="46" height="9" rx="4" fill="#9a6a40"/>
+</g>
+</svg>

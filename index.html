@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Menu Pojok Kopi Dusun</title><meta name="description" content="Daftar menu dan harga Pojok Kopi Dusun"><meta name="theme-color" content="#12372a">
+<style>
+:root{--bg:#faf6ef;--card:#fff;--bd:#eadfcd;--tx:#1d2420;--mu:#6b726c;--gr:#12372a;--am:#b9722a}
+@media(prefers-color-scheme:dark){:root{--bg:#101512;--card:#18201c;--bd:#2a362e;--tx:#f0f4f1;--mu:#9ba8a0;--gr:#1d4a38;--am:#e0a266}}
+*{box-sizing:border-box}[hidden]{display:none!important}html{scroll-behavior:smooth}
+body{margin:0;font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--tx)}
+header{background:linear-gradient(135deg,#12372a,#24604a);color:#fff;text-align:center;padding:26px 18px 22px}
+.brand{font:700 1.05rem Georgia,serif;opacity:.9}header h1{font:700 2rem/1.15 Georgia,serif;margin:6px 0}header p{margin:0;opacity:.88;font-size:.95rem}
+.bar{position:sticky;top:0;z-index:10;background:var(--bg);padding:10px 12px 8px;border-bottom:1px solid var(--bd)}
+.bar input{width:100%;max-width:760px;display:block;margin:0 auto 8px;padding:12px 14px;border:1px solid var(--bd);border-radius:12px;background:var(--card);color:var(--tx);font:inherit}
+#nav{display:flex;gap:8px;overflow-x:auto;max-width:760px;margin:0 auto;scrollbar-width:none}#nav::-webkit-scrollbar{display:none}
+#nav a{white-space:nowrap;text-decoration:none;color:var(--tx);border:1px solid var(--bd);background:var(--card);border-radius:999px;padding:8px 16px;font-weight:600;font-size:.92rem}
+main{max-width:760px;margin:0 auto;padding:6px 12px 20px}
+section{scroll-margin-top:118px;margin-top:18px}
+h2{display:flex;align-items:baseline;gap:8px;margin:0 0 4px;font:700 1.35rem Georgia,serif;color:var(--gr)}
+@media(prefers-color-scheme:dark){h2{color:#8fd1ae}}
+h2 small{font:500 .85rem system-ui,sans-serif;color:var(--mu)}
+.it{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:10px;margin-top:10px}
+.it img{width:84px;height:84px;border-radius:12px;object-fit:cover;flex-shrink:0;background:var(--bd)}
+.it b{display:block;font-size:1.02rem;line-height:1.25}.pr{color:var(--am);font-weight:800;font-size:1.1rem;margin-top:2px;display:block}
+.empty{text-align:center;color:var(--mu);padding:30px 0}
+footer{text-align:center;color:var(--mu);font-size:.85rem;padding:18px 16px 36px}
+</style></head><body>
+<header><div class="brand">☕ Pojok Kopi Dusun</div><h1>Iko Menunyo</h1><p>Silakan pilih, lalu sebutkan pesanan ke kasir atau pelayan.</p></header>
+<div class="bar"><input type="search" id="q" placeholder="Cari menu…" aria-label="Cari menu" autocomplete="off"><nav id="nav" aria-label="Kategori"></nav></div>
+<main id="app"></main>
+<footer>Harga dapat berubah sewaktu-waktu.<br>Terima kasih sudah mampir 🙏</footer>
+<script>
+/* ===== Ubah menu dan harga di sini saja. Format: ['Nama menu', harga] ===== */
+const MENU=[
+{t:'Minuman Panas',s:'Iko Minuman Panasnyo',i:[['Kopi Susu Gulo Aren',13000],['Kopi Hitam Gulo Aren',12000],['Kopi Tanpa Gulo',10000],['Teh Susu Gulo Aren',12000],['Teh Gulo Aren',10000],['Teh Jeruk Kunci',10000],['Jahe Merah Susu',12000],['Mineral',5000]]},
+{t:'Minuman Dingin',s:'Iko Minuman Dinginnyo',i:[['Es Kopi Susu Gulo Aren',15000],['Es Kopi Susu Karamel',15000],['Es Susu Gulo Aren',13000],['Es Teh Susu Gulo Aren',13000],['Es Teh Gulo Aren',13000],['Es Teh Jeruk Kunci',13000],['Es Teh Karamel',13000],['Es Jahe Merah Susu Gulo Aren',13000],['Es Fanta Susu',13000],['Es Coklat Karamel',13000],['Es Coklat Gulo Aren',13000]]},
+{t:'Gorengan',s:'Gorengan Nyo',i:[['Pisang Goreng',13000],['Tahu Goreng Isi',13000],['Bakwan Jagung',13000],['Tempe Goreng',13000],['Ubi Goreng',13000]]},
+{t:'Makanan',s:'Makanan Nyo',i:[['Indomie Goreng',15000],['Indomie Rebus',15000],['Nasi Goreng Dusun',15000]]}
+];
+/* Gambar: images/<nama-menu-huruf-kecil-pakai-tanda-hubung>.svg, mis. images/es-teh-karamel.svg (boleh diganti foto asli .svg/.jpg dengan nama sama) */
+const slug=n=>n.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''),rp=n=>'Rp'+n.toLocaleString('id-ID');
+const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+document.getElementById('nav').innerHTML=MENU.map((m,k)=>`<a href="#s${k}">${m.t}</a>`).join('');
+document.getElementById('app').innerHTML=MENU.map((m,k)=>`<section id="s${k}"><h2>${m.t}<small>${m.s}</small></h2>${m.i.map(([n,p])=>`<div class="it" data-n="${esc(n.toLowerCase())}"><img src="images/${slug(n)}.svg" alt="${esc(n)}" width="84" height="84" loading="lazy" onerror="this.style.visibility='hidden'"><div><b>${esc(n)}</b><span class="pr">${rp(p)}</span></div></div>`).join('')}</section>`).join('')+'<div class="empty" id="none" hidden>Menu tidak ditemukan.</div>';
+document.getElementById('q').addEventListener('input',e=>{const q=e.target.value.trim().toLowerCase();let any=0;
+document.querySelectorAll('section').forEach(s=>{let v=0;s.querySelectorAll('.it').forEach(i=>{const ok=i.dataset.n.includes(q);i.hidden=!ok;v+=ok});s.hidden=!v;any+=v});
+document.getElementById('none').hidden=!!any});
+</script></body></html>

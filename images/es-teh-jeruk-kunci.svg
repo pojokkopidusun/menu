@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Es Teh Jeruk Kunci">
+<title>Es Teh Jeruk Kunci</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6f0e8"/><stop offset="1" stop-color="#cfe2d4"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#bg)"/>
+<circle cx="340" cy="60" r="120" fill="#fff" opacity=".18"/>
+<circle cx="50" cy="360" r="95" fill="#fff" opacity=".14"/>
+
+<ellipse cx="200" cy="350" rx="110" ry="17" fill="#000" opacity=".12"/>
+<defs><clipPath id="g"><path d="M122 108 H278 L262 322 Q260 342 242 342 H158 Q140 342 138 322 Z"/></clipPath></defs>
+<g clip-path="url(#g)"><rect x="100" y="128" width="200" height="217" fill="#d98e3a"/><g fill="#fff" stroke="#fff" opacity=".42">
+<rect x="140" y="112" width="52" height="46" rx="10" transform="rotate(-12 166 135)"/>
+<rect x="198" y="122" width="50" height="44" rx="10" transform="rotate(14 223 144)"/>
+<rect x="160" y="168" width="46" height="42" rx="10" transform="rotate(8 183 189)"/></g></g>
+<path d="M236 56 L206 300" stroke="#2e6b4f" stroke-width="14" stroke-linecap="round"/>
+<path d="M122 108 H278 L262 322 Q260 342 242 342 H158 Q140 342 138 322 Z" fill="#fff" fill-opacity=".14" stroke="#fff" stroke-opacity=".9" stroke-width="5" stroke-linejoin="round"/>
+<path d="M144 126 L152 300" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".45"/>
+<g><circle cx="285" cy="116" r="32" fill="#5f9f2c"/><circle cx="285" cy="116" r="26" fill="#bfe068"/><line x1="285" y1="116" x2="306.18440286206635" y2="124.95662187309897" stroke="#eaf5bd" stroke-width="3"/><line x1="285" y1="116" x2="287.83555954582755" y2="138.82453947097434" stroke="#eaf5bd" stroke-width="3"/><line x1="285" y1="116" x2="266.6511610279813" y2="129.86795256622" stroke="#eaf5bd" stroke-width="3"/><line x1="285" y1="116" x2="263.81557337080784" y2="107.0434343416478" stroke="#eaf5bd" stroke-width="3"/><line x1="285" y1="116" x2="282.1643798872175" y2="93.17546805351787" stroke="#eaf5bd" stroke-width="3"/><line x1="285" y1="116" x2="303.3488021720967" y2="102.13199874353703" stroke="#eaf5bd" stroke-width="3"/><circle cx="285" cy="116" r="4" fill="#eaf5bd"/></g><g><circle cx="90" cy="338" r="24" fill="#5f9f2c"/><circle cx="90" cy="338" r="18" fill="#bfe068"/><line x1="90" y1="338" x2="99.32414952405996" y2="349.74990364441226" stroke="#eaf5bd" stroke-width="3"/><line x1="90" y1="338" x2="84.48637205305779" y2="351.94990705570103" stroke="#eaf5bd" stroke-width="3"/><line x1="90" y1="338" x2="75.16221408184197" y2="340.2000247832493" stroke="#eaf5bd" stroke-width="3"/><line x1="90" y1="338" x2="80.67581929654847" y2="326.2501210980971" stroke="#eaf5bd" stroke-width="3"/><line x1="90" y1="338" x2="95.51359092959183" y2="324.05007831344125" stroke="#eaf5bd" stroke-width="3"/><line x1="90" y1="338" x2="104.83778008014248" y2="335.79993584336114" stroke="#eaf5bd" stroke-width="3"/><circle cx="90" cy="338" r="4" fill="#eaf5bd"/></g>
+</svg>

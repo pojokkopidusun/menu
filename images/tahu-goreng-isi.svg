@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Tahu Goreng Isi">
+<title>Tahu Goreng Isi</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fcf1d6"/><stop offset="1" stop-color="#f4dca4"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#bg)"/>
+<circle cx="340" cy="60" r="120" fill="#fff" opacity=".18"/>
+<circle cx="50" cy="360" r="95" fill="#fff" opacity=".14"/>
+<g transform="translate(200 312) scale(1.2) translate(-200 -300)"><ellipse cx="200" cy="322" rx="160" ry="44" fill="#000" opacity=".12"/>
+<ellipse cx="200" cy="300" rx="160" ry="44" fill="#fffaf2"/>
+<ellipse cx="200" cy="297" rx="134" ry="32" fill="#efe3cf"/><g transform="rotate(-8 140 280)"><path d="M96 310 L140 242 L184 310 Z" fill="#e8a43c" stroke="#c47a1e" stroke-width="4" stroke-linejoin="round"/><path d="M110 302 L140 260 L170 302 Z" fill="#f6cf7e"/><circle cx="132" cy="288" r="4.5" fill="#7cae3a"/><circle cx="148" cy="292" r="4.5" fill="#e06b2b"/><circle cx="140" cy="276" r="4" fill="#7cae3a"/></g><g transform="rotate(8 260 280)"><path d="M216 310 L260 242 L304 310 Z" fill="#e8a43c" stroke="#c47a1e" stroke-width="4" stroke-linejoin="round"/><path d="M230 302 L260 260 L290 302 Z" fill="#f6cf7e"/><circle cx="252" cy="288" r="4.5" fill="#7cae3a"/><circle cx="268" cy="292" r="4.5" fill="#e06b2b"/><circle cx="260" cy="276" r="4" fill="#7cae3a"/></g><g transform="rotate(0 200 250)"><path d="M156 280 L200 212 L244 280 Z" fill="#e8a43c" stroke="#c47a1e" stroke-width="4" stroke-linejoin="round"/><path d="M170 272 L200 230 L230 272 Z" fill="#f6cf7e"/><circle cx="192" cy="258" r="4.5" fill="#7cae3a"/><circle cx="208" cy="262" r="4.5" fill="#e06b2b"/><circle cx="200" cy="246" r="4" fill="#7cae3a"/></g><g transform="rotate(20 300 320)"><path d="M274 320 q26 -16 52 0 q-26 10 -52 0z" fill="#d9331f"/><circle cx="327" cy="320" r="3" fill="#3f8a2a"/></g><g transform="rotate(-15 110 322)"><path d="M84 322 q26 -16 52 0 q-26 10 -52 0z" fill="#d9331f"/><circle cx="137" cy="322" r="3" fill="#3f8a2a"/></g></g>
+</svg>

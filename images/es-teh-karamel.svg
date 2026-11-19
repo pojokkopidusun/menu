@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Es Teh Karamel">
+<title>Es Teh Karamel</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6f0e8"/><stop offset="1" stop-color="#cfe2d4"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#bg)"/>
+<circle cx="340" cy="60" r="120" fill="#fff" opacity=".18"/>
+<circle cx="50" cy="360" r="95" fill="#fff" opacity=".14"/>
+
+<ellipse cx="200" cy="350" rx="110" ry="17" fill="#000" opacity=".12"/>
+<defs><clipPath id="g"><path d="M122 108 H278 L262 322 Q260 342 242 342 H158 Q140 342 138 322 Z"/></clipPath></defs>
+<g clip-path="url(#g)"><rect x="100" y="128" width="200" height="217" fill="#c8772e"/><g fill="#fff" stroke="#fff" opacity=".42">
+<rect x="140" y="112" width="52" height="46" rx="10" transform="rotate(-12 166 135)"/>
+<rect x="198" y="122" width="50" height="44" rx="10" transform="rotate(14 223 144)"/>
+<rect x="160" y="168" width="46" height="42" rx="10" transform="rotate(8 183 189)"/></g><g fill="none" stroke="#e8a93a" stroke-width="8" stroke-linecap="round" opacity=".95"><path d="M138 150 q14 24 0 48 q-14 24 0 48"/><path d="M262 150 q-14 24 0 48 q14 24 0 48"/></g><path d="M128 130 q22 -18 44 0 t44 0 t44 0 t24 -6" fill="none" stroke="#e8a93a" stroke-width="9" stroke-linecap="round"/></g>
+<path d="M236 56 L206 300" stroke="#2e6b4f" stroke-width="14" stroke-linecap="round"/>
+<path d="M122 108 H278 L262 322 Q260 342 242 342 H158 Q140 342 138 322 Z" fill="#fff" fill-opacity=".14" stroke="#fff" stroke-opacity=".9" stroke-width="5" stroke-linejoin="round"/>
+<path d="M144 126 L152 300" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".45"/>
+
+</svg>
