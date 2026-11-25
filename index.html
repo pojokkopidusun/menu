@@ -22,14 +22,12 @@ h2 small{font:500 .85rem system-ui,sans-serif;color:var(--mu)}
 .it b{display:block;font-size:1.02rem;line-height:1.25}.pr{color:var(--am);font-weight:800;font-size:1.1rem;margin-top:2px;display:block}
 .empty{text-align:center;color:var(--mu);padding:30px 0}
 footer{text-align:center;color:var(--mu);font-size:.85rem;padding:18px 16px 36px}
-.jasa{display:block;max-width:520px;margin:16px auto 0;padding:12px 16px;border:1px dashed var(--bd);border-radius:14px;color:var(--tx);text-decoration:none;font-size:.88rem;line-height:1.45}
-.jasa:hover{border-color:var(--am)}.jasa b{color:var(--am)}
 </style></head><body>
 <header><div class="brand">☕ Pojok Kopi Dusun</div><h1>Iko Menunyo</h1><p>Silakan pilih, lalu sebutkan pesanan ke kasir atau pelayan.</p></header>
 <div class="bar"><input type="search" id="q" placeholder="Cari menu…" aria-label="Cari menu" autocomplete="off"><nav id="nav" aria-label="Kategori"></nav></div>
 <main id="app"></main>
 <footer>Harga dapat berubah sewaktu-waktu.<br>Terima kasih sudah mampir 🙏
-<a id="jasa" class="jasa" href="#" target="_blank" rel="noopener">Jasa bikin website UMKM, website untuk tugas skripsi, game Roblox, dan lainnya &mdash; hubungi <b>Kiki</b></a></footer>
+</footer>
 <script>
 /* ===== Ubah menu dan harga di sini saja. Format: ['Nama menu', harga] ===== */
 const MENU=[
@@ -39,11 +37,6 @@ const MENU=[
 {t:'Makanan',s:'Makanan Nyo',i:[['Indomie Goreng',15000],['Indomie Rebus',15000],['Nasi Goreng Dusun',15000]]}
 ];
 /* Gambar: images/<nama-menu-huruf-kecil-pakai-tanda-hubung>.svg, mis. images/es-teh-karamel.svg (boleh diganti foto asli .svg/.jpg dengan nama sama) */
-/* ===== Isi nomor WhatsApp Anda di sini: awali 62, tanpa +, spasi, atau 0 di depan. Contoh: '6281234567890' ===== */
-const WA_NUMBER='6282210186532';
-const WA_PESAN='Halo Kak Kiki, saya lihat info jasa di menu Pojok Kopi Dusun. Saya ingin bertanya soal ';
-if(WA_NUMBER)document.getElementById('jasa').href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(WA_PESAN);
-else document.getElementById('jasa').addEventListener('click',e=>e.preventDefault());
 const slug=n=>n.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''),rp=n=>'Rp'+n.toLocaleString('id-ID');
 const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 document.getElementById('nav').innerHTML=MENU.map((m,k)=>`<a href="#s${k}">${m.t}</a>`).join('');
